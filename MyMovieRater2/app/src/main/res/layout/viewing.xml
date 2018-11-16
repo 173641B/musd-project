@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/logo"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/icon"/>
+
+    <TextView
+            android:text="Title:"
+            android:id="@+id/title"
+            android:layout_below="@+id/icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="TextView"
+            android:textSize="15dp"
+            android:id="@+id/titleText"
+            android:layout_below="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:text="Overview:"
+            android:id="@+id/overview"
+            android:layout_below="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="TextView"
+            android:textSize="15dp"
+            android:id="@+id/overviewtext"
+            android:layout_below="@+id/overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="Language"
+            android:id="@+id/language"
+            android:layout_below="@+id/overviewtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="TextView"
+            android:textSize="15dp"
+            android:id="@+id/languagetext"
+            android:layout_below="@+id/language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="Release Date"
+            android:id="@+id/date"
+            android:layout_below="@+id/languagetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="TextView"
+            android:textSize="15dp"
+            android:id="@+id/datetext"
+            android:layout_below="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="Suitable for children below 13:"
+            android:id="@+id/age"
+            android:layout_below="@+id/datetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="TextView"
+            android:textSize="15dp"
+            android:id="@+id/agetext"
+            android:layout_below="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>
