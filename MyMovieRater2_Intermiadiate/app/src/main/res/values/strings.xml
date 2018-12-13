@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Movie Rater</string>
+    <string name="movie_name">Name</string>
+    <string name="movie_desc">Description</string>
+    <string name="movie_lang">Language</string>
+    <string name="rbtn1_text">English</string>
+    <string name="rbtn2_text">Chinese</string>
+    <string name="rbtn3_text">Malay</string>
+    <string name="rbtn4_text">Tamil</string>
+    <string name="movie_date">Release Date</string>
+    <string name="Box1">Not suitable for all audience</string>
+    <string name="Box2">Violence</string>
+    <string name="Box3">Language Used</string>
+    <string name="movie_button">Add Movie</string>
+    <string name="pname">Enter the title of the movie</string>
+    <string name="pdesc">Enter a short description of the movie</string>
+    <string name="pdate">Enter release date</string>
+    <string name="title">You have not added a movie \n Long Press me to add movie
+    </string>
+    <string name="reviewtowrite">No Reviews yet \n Long press me to add a review
+    </string>
+</resources>
